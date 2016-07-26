@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
+var ng2_bootstrap_1 = require('ng2-bootstrap/ng2-bootstrap');
 var hero_service_1 = require('../service/hero.service');
 var AppComponent = (function () {
     function AppComponent() {
@@ -17,10 +18,11 @@ var AppComponent = (function () {
     }
     AppComponent = __decorate([
         core_1.Component({
+            moduleId: module.id,
             selector: 'my-app',
-            templateUrl: 'app/app/app.component.html',
-            styleUrls: ['app/app/app.component.css'],
-            directives: [router_1.ROUTER_DIRECTIVES],
+            templateUrl: 'app.component.html',
+            styleUrls: ['app.component.css'],
+            directives: [router_1.ROUTER_DIRECTIVES, ng2_bootstrap_1.AlertComponent],
             providers: [
                 hero_service_1.HeroService
             ]
