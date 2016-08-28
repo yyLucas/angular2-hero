@@ -11,7 +11,7 @@ import { HeroService }     from '../service/hero.service';
     styleUrls: ['app.component.css'],
     directives: [ROUTER_DIRECTIVES, AlertComponent],
     providers: [
-        HeroService
+        HeroService,
     ]
 })
 

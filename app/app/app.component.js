@@ -24,7 +24,7 @@ var AppComponent = (function () {
             styleUrls: ['app.component.css'],
             directives: [router_1.ROUTER_DIRECTIVES, ng2_bootstrap_1.AlertComponent],
             providers: [
-                hero_service_1.HeroService
+                hero_service_1.HeroService,
             ]
         }), 
         __metadata('design:paramtypes', [])

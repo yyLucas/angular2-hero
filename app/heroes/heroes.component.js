@@ -55,10 +55,11 @@ var HeroesComponent = (function () {
     };
     HeroesComponent = __decorate([
         core_1.Component({
+            moduleId: module.id,
             selector: 'my-heroes',
             directives: [hero_detail_component_1.HeroDetailComponent],
-            templateUrl: 'app/heroes/heroes.component.html',
-            styleUrls: ['app/heroes/heroes.component.css']
+            templateUrl: 'heroes.component.html',
+            styleUrls: ['heroes.component.css']
         }), 
         __metadata('design:paramtypes', [router_1.Router, hero_service_1.HeroService])
     ], HeroesComponent);
